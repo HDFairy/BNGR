@@ -1,2 +1,2 @@
-# BNGR
-Estimating Tropical Cyclone Wind Speed with Bayesian Nonparametric General Regression (BNGR)
+# NWSE Model
+A NonparametricTropical Cyclone Wind Speed Estimation Model Based on SAR Observations
