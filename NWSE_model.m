@@ -1,7 +1,7 @@
 tic ;
 
-%% Load SAR-SFMR dataset N = 519
-Data = load('SAR-SFMR Dataset.mat') ;
+%% Load SAR-Winds dataset N = 519
+Data = load('SAR-Winds Dataset.mat') ;
 WSpd = Data.Wind_Speed';               % Measured wind speed
 NRCS_VH = Data.VH_NRCS' ;   % SAR VH-NRCS
 NRCS_VV = Data.VV_NRCS' ;    % SAR VV-NRCS
@@ -14,7 +14,7 @@ N = length(WSpd) ;  % The size of dataset
 X_SAR_Winds = [NRCS_VH; Angle];
 Y_SAR_Winds = WSpd;
 
-%% Parameters
+%% Parameters  
 s1 = 6.7103e-04;
 s2 = 1.8247;
 
